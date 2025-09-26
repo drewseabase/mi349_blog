@@ -19,6 +19,8 @@
 
 #header-middle
 {
+    font-size: 24pt;
+    color: forestgreen;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -26,6 +28,8 @@
 
 #header-right
 {
+    font-size: 24pt;
+    color: forestgreen;
     float: right;
     width: 300px;
     margin-right: 20px;
