@@ -1,0 +1,33 @@
+#header
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    background-color: #fafafa;
+    height: 55px;
+    border-bottom: 1px solid #d3d3d3;
+    overflow: auto; 
+}
+
+#logo
+{
+    font-size: 24pt;
+    color: forestgreen;
+    width: 100px;
+    float: left;
+}
+
+#header-middle
+{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header-right
+{
+    float: right;
+    width: 300px;
+    margin-right: 20px;
+    text-align: center;
+}
