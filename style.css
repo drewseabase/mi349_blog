@@ -49,6 +49,8 @@
 #header-right a:hover
 {
     color: darkgreen;
+    background-color: grey;
+    transition: width 2s;
 }
 
 
