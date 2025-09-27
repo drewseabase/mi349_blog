@@ -38,6 +38,7 @@
 #header-right a
 {
     display: inline-block;
+    width: auto;
     padding: .2px .4px;
     font-size: 24pt;
     color: forestgreen;
