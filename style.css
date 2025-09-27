@@ -26,13 +26,20 @@
     float: left;
 }
 
-#header-middle
+#header-middle a
 {
     font-size: 24pt;
     color: forestgreen;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#header-middle a:hover
+{
+    color: darkgreen;
+    background-color: #e6e6e6;
+    transform: translateY(-1px);
 }
 
 #header-right a
