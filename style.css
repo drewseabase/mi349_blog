@@ -45,3 +45,10 @@
     text-align: center;
     text-decoration: none;
 }
+
+#header-right a:hover
+{
+    color: darkgreen;
+}
+
+
