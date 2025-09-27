@@ -35,7 +35,7 @@
     margin-right: auto;
 }
 
-#header-right
+#header-right a
 {
     font-size: 24pt;
     color: forestgreen;
@@ -43,4 +43,5 @@
     width: 300px;
     margin-right: 20px;
     text-align: center;
+    text-decoration: none;
 }
