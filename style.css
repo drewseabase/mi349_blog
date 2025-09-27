@@ -1,5 +1,6 @@
 #header
 {
+    /*
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
@@ -7,6 +8,14 @@
     height: 55px;
     border-bottom: 1px solid #d3d3d3;
     overflow: auto; 
+    */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    background-color: #fafafa;
+    height: 55px;
+    border-bottom: 1px solid #d3d3d3;
 }
 
 #logo
@@ -33,5 +42,5 @@
     float: right;
     width: 300px;
     margin-right: 20px;
-    
+    text-align: center;
 }
