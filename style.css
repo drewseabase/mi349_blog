@@ -50,7 +50,7 @@
 {
     color: darkgreen;
     background-color: grey;
-    transition: width 2s;
+    transition: width 1ms;
 }
 
 
