@@ -85,13 +85,5 @@
     height: 100%;
     object-fit: cover;
 }
-#table
-{
-    margin: 12px auto;          
-  width: 100%;
-  max-width: 680px;           
-  border-collapse: collapse;  
-  border: 1px solid #e2e2e2;  
-  background: #fff;
-}
+
 
