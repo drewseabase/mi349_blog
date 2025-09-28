@@ -57,11 +57,13 @@
   transform: translateY(-1px);
 }
 
-/*#blog-title-alignment
+#blog-alignment
 {
-
+    max-width: 600px;
+    margin: 0 auto 16px;
+    line-height: 1.6;
 }
-*/
+
 
 #img-frame 
 {
