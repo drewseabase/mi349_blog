@@ -21,11 +21,9 @@
 /* Middle*/
 #header-middle 
 {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%); /* adjust this to nudge: e.g., translateX(calc(-50% + 6px)) */
-  text-align: center;
-   
+  flex: 1;                 
+  text-align: center; 
+  transform: translateX(-50%);     
 }
 #header-middle a 
 {
