@@ -25,7 +25,7 @@
   left: 50%;
   transform: translateX(-50%); /* adjust this to nudge: e.g., translateX(calc(-50% + 6px)) */
   text-align: center;
-  white-space: nowrap;    
+   
 }
 #header-middle a 
 {
