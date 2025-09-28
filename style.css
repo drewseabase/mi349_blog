@@ -1,5 +1,6 @@
 /* Header as flex row */
-#header {
+#header 
+{
   display: flex;
   align-items: center;
   justify-content: space-between;  
@@ -10,24 +11,28 @@
 }
 
 /* Left */
-#logo {
+#logo 
+{
   font-size: 24pt;
   color: forestgreen;
   flex: 0 0 auto; 
 }
 
 /* Middle*/
-#header-middle {
+#header-middle 
+{
   flex: 1;                 
   text-align: center;      
 }
-#header-middle a {
+#header-middle a 
+{
   display: inline-block;   
   font-size: 24pt;
   color: forestgreen;
   text-decoration: none;
 }
-#header-middle a:hover {
+#header-middle a:hover 
+{
   color: darkgreen;
   background-color: #e6e6e6;
   transform: translateY(-1px);  
@@ -36,10 +41,12 @@
 }
 
 /* Right */
-#header-right {
-  flex: 0 0 auto; 
+#header-right 
+{
+  flex: 0 0 300px; 
 }
-#header-right a {
+#header-right a 
+{
   display: inline-block;
   padding: 2px 6px;        
   font-size: 24pt;
@@ -51,7 +58,8 @@
   line-height: 1.1;
   transition: background-color .2s ease, color .2s ease, transform .15s ease;
 }
-#header-right a:hover {
+#header-right a:hover 
+{
   color: darkgreen;
   background-color: #e6e6e6;
   transform: translateY(-1px);
