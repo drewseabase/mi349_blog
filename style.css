@@ -23,7 +23,7 @@
 {
   flex: 1;                 
   text-align: center; 
-  transform: translateX(-50%);     
+  transform: translateX(50%);     
 }
 #header-middle a 
 {
