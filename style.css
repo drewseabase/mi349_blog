@@ -31,6 +31,7 @@
   color: darkgreen;
   background-color: #e6e6e6;
   transform: translateY(-1px);  
+  border-radius: 8px;
 }
 
 /* Right */
@@ -53,5 +54,10 @@
   color: darkgreen;
   background-color: #e6e6e6;
   transform: translateY(-1px);
+}
+
+#blog-post-alignments
+{
+
 }
 
