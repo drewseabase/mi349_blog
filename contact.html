@@ -51,7 +51,31 @@
                 <input id="name" name="name" type="text" autocomplete="name" required />
               </div>
 
-              
+              <div class="field">
+                <label for="email">Email address</label>
+                <input id="email" name="email" type="email" autocomplete="email" required />
+              </div>
+
+              <div class="field">
+                <label for="reason">Reason for contact</label>
+                <select id="reason" name="reason" required>
+                  <option value="" selected disabled>Choose one…</option>
+                  <option value="saying-hi">Saying hi</option>
+                  <option value="contractor">Looking for a contractor</option>
+                  <option value="interview">Interested in an interview</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="message">Comment</label>
+                <textarea id="message" name="message" rows="6" maxlength="2000" required></textarea>
+              </div>
+
+              <div class="actions">
+                <button type="submit">Submit</button>
+              </div>
+
+
             </fieldset>
           </form>
         </div>
