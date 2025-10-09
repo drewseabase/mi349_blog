@@ -86,4 +86,6 @@
     object-fit: cover;
 }
 
+body{ font-family:system-ui, sans-serif; background:#ffff; color:#222; margin:0;}
+
 
