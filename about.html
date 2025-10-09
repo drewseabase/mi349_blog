@@ -1,89 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spartans Sports About</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spartans Sports About</title>
 
-    <meta name="description" content="Spartans Sports blog covering Michigan State athletics." />
-    <meta name="author" content="Drew Seabase" />
+  <meta name="description" content="Spartans Sports blog covering Michigan State athletics." />
+  <meta name="author" content="Drew Seabase" />
 
-     <link 
-    rel="stylesheet" 
+  <link
+    rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    >
-    <link rel="stylesheet" href="style.css">
-
+  />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header id = "header">
-      <!-- Html Code for the Logo of the otter -->
-      <div id = "logo">
-        <i class="fa-solid fa-medal"></i> 
-      </div>  
-      <!-- Html Code for the Title of the Page -->
-      <div id = "header-middle">
-        <a href = "index.html"> <b> Spartans Sports </b></a>
-      </div>
-      <!-- Html Code for the About/Contact Buttons -->
-      <div id= "header-right">
-        <a href= "contact.html"> Contact </a>
-      </div>
-      <div id = "header-right">
-        <a href = "about.html"> About </a>
-      </div>
-    </header>  
-    
-    <main id="content">
-      <article class="about">
-        <div id="blog-alignment">
-        <header class="about_header">
-          <figure id="img-frame">
-            <img src="Images/IMG_6657.JPG" alt = "Drew Seabase Media Day Pictures">
-            <figcaption> Spartan, runner, writer</figcaption>
-          </figure>
 
+  <!-- Sticky header -->
+  <header id="header">
+    <div id="logo">
+      <i class="fa-solid fa-medal" aria-hidden="true"></i>
+    </div>
+    <div id="header-middle">
+      <a href="index.html"><b>Spartans Sports</b></a>
+    </div>
+    <div id="header-right">
+      <a href="contact.html">Contact</a>
+      <a href="about.html" aria-current="page">About</a>
+    </div>
+  </header>
+
+  <!-- Page container -->
+  <div class="container">
+
+    <!-- Three-column layout: left nav / center content / right sidebar -->
+    <main class="three-col">
+
+      <!-- LEFT: simple local nav -->
+      <aside class="left">
+        <nav aria-label="About navigation" class="card">
+          <h3>Navigate</h3>
+          <ul class="list-plain">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#quick-facts">Quick Facts</a></li>
+            <li><a href="#Now">Right Now</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- CENTER: main about content -->
+      <div class="center">
+        <article class="about">
           <div id="blog-alignment">
-              <h1> Drew Seabase </h1>
-              <p class="tagline"> Student • Runner • Spartans Sports blogger</p>
-          </div>
-        </header>
+            <header class="about_header">
+              <figure id="img-frame">
+                <img src="Images/IMG_6657.JPG" alt="Drew Seabase media day portrait" />
+                <figcaption>Spartan, runner, writer</figcaption>
+              </figure>
 
-          
+              <div>
+                <h1>Drew Seabase</h1>
+                <p class="tagline">Student • Runner • Spartans Sports blogger</p>
+              </div>
+            </header>
+
             <section aria-labelledby="about-me">
-              <h2 id="about-me"> About Me </h2>
-              <p> My name is Drew Seabase. I am a fifth year undergrad student in Games and Interactive Media. I am also running for the 
-              mens Cross Country team here at State. After I graduate I plan to train for the Olympic Trials in the triathlon as well as 
-              work for my Masters Degree in Computer Science. What I'm mainly writing about on this blog will be Michigan State Sports updates.
+              <h2 id="about-me">About Me</h2>
+              <p>
+                My name is Drew Seabase. I am a fifth-year undergrad student in Games and Interactive Media.
+                I also run for the men’s Cross Country team here at State. After I graduate, I plan to train
+                for the Olympic Trials in the triathlon as well as work toward my Master’s degree in Computer Science.
+                This blog mainly covers Michigan State sports updates.
               </p>
             </section>
-          
-          
+
             <section aria-labelledby="quick-facts">
-              <h2 id="quick-facts"> Quick Facts About Me</h2>
-              <ul> 
-                <li> I run 95-100 Miles a Week</li>
-                <li> My fastest Mile time is 4:06 </li>
-                <li> My favorite Race Distance: 8k (Cross Country)</li>
+              <h2 id="quick-facts">Quick Facts About Me</h2>
+              <ul>
+                <li>I run 95–100 miles a week</li>
+                <li>My fastest mile time is 4:06</li>
+                <li>Favorite race distance: 8k (Cross Country)</li>
               </ul>
             </section>
 
             <section aria-labelledby="Now">
-              <h2 id="Now"> Right Now </h2>
-              <p> Currently I am working on applying for a Masters Program while also trainign for my final Cross Country Season. My goals for the season 
-                is to make the final team for regionals and nationals, as well as place within the top 50 individuals at the Big Ten Cross Country Race. I am
-                really excited for Big Tens this year because we are hosting it here in East Lansing at Forest Akers Golf Course on October 31st. It's going to be 
-                a really exciting and amazing day and I can't wait for that day to come!
+              <h2 id="Now">Right Now</h2>
+              <p>
+                I’m currently applying for a Master’s program while also training for my final Cross Country season.
+                My goals are to make the final team for regionals and nationals, and to place within the top 50 individuals
+                at the Big Ten Cross Country Championships. I’m especially excited because we’re hosting Big Tens in East Lansing
+                at Forest Akers Golf Course on October 31st—it’s going to be an amazing day.
               </p>
             </section>
-        </div>
-      </article>
-    </main>
+          </div>
+        </article>
 
-     <div id="blog-alignment">
-    <footer class="site-footer">
-      <small>&copy; <time datetime="2025">2025</time> Spartans Sports</small>
-    </footer>
-    </div>
+        <div id="blog-alignment">
+          <footer class="site-footer">
+            <small>&copy; <time datetime="2025">2025</time> Spartans Sports</small>
+          </footer>
+        </div>
+      </div>
+
+      <!-- RIGHT: sidebar cards -->
+      <aside class="right">
+        <div class="card">
+          <h3>About This Site</h3>
+          <p>Spartans Sports covers all things MSU athletics with a student’s-eye view.</p>
+        </div>
+
+        <div class="card">
+          <h3>Follow</h3>
+          <ul class="list-plain">
+            <li><a href="https://x.com" target="_blank" rel="noopener">X</a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+      </aside>
+
+    </main>
+  </div>
 </body>
 </html>
