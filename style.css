@@ -110,3 +110,29 @@ a:hover {text-decoration: underline;}
 .three-col .left, .three-col .right { flex: 0 0 220px; }
 .three-col .center { flex: 1 1 0; }
 
+.float-img { float: right; margin: 0 0 12px 18px; max-width: 45%; }
+figure { margin: 0 0 1em; }
+figcaption { font-size: 0.9rem; color: #555; text-align:center; }
+
+form .row { display:flex; gap: 16px; margin-bottom:12px; }
+form .field { flex:1; display:flex; flex-direction:column; gap:6px; }
+
+input[type], select, textarea { padding:10px; border:1px solid #d3d3d3; border-radius:8px; font: inherit; }
+input[type="submit"], button[type="submit"] { padding:10px 14px; border:0; border-radius:8px; background:forestgreen; color:#fff; cursor:pointer; }
+a[href^="http"] { word-break: break-word; }
+
+.card { border:1px solid #e6e6e6; border-radius:12px; padding:14px; background:#fafafa; }
+.list-plain { list-style:none; padding:0; margin:0; }
+.list-plain li { padding:6px 0; border-bottom:1px solid #eee; }
+.list-plain li:last-child { border-bottom:0; }
+
+.content img { max-width:100%; height:auto; border-radius:8px; }
+
+.visually-hidden { position:absolute !important; inline-size:1px; block-size:1px; overflow:hidden; clip:rect(1px,1px,1px,1px); white-space:nowrap; }
+
+@media (max-width: 900px) {
+  .two-col, .three-col { flex-direction: column; }
+  .float-img { float:none; margin: 0 0 12px 0; max-width:100%; }
+}
+
+
