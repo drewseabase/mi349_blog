@@ -1,15 +1,16 @@
-header
+header 
 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 25px;
-  background-color: #fafafa;
-  height: 55px;
-  border-bottom: 1px solid #d3d3d3;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    background-color: #fafafa;
+    height: 55px;
+    color: forestgreen;
+    border-bottom: 1px solid #d3d3d3;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul
