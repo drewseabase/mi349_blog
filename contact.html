@@ -3,87 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spartans Sports Contact</title>
+    <title>Spartan Sports</title>
 
-    <meta name="description" content="Spartans Sports blog covering Michigan State athletics." />
-    <meta name="author" content="Drew Seabase" />
+    <meta name="description" content="Spartans Sports blog covering Michigan State Athletics">
+    <meta name="author" content="Drew Seabase">
 
-     <link 
-    rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    >
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
 </head>
-<body>
-    <header id = "header">
-      <!-- Html Code for the Logo of the otter -->
-      <div id = "logo">
-        <i class="fa-solid fa-medal"></i> 
-      </div>  
-      <!-- Html Code for the Title of the Page -->
-      <div id = "header-middle">
-        <a href = "index.html"> <b> Spartans Sports </b></a>
-      </div>
-      <!-- Html Code for the About/Contact Buttons -->
-      <div id= "header-right">
-        <a href= "contact.html"> Contact </a>
-      </div>
-      <div id = "header-right">
-        <a href = "about.html"> About </a>
-      </div>
-    </header>   
-    
-    <main id="content">
-      <article>
-        <div id="blog-alignment">
-          <header>
-            <h1>Contact</h1>
-            <p> Have a note, request, or question? Drop a line below.</p>
-          </header>
+<body> 
+  <header id="header">
 
-          <form action="#" method="post" autocomplete="on" data-netlify="true">
-            <fieldset>
-              <legend> Send a Message </legend>
-
-              <div class="field">
-                <label for="name">Name</label>
-                <input id="name" name="name" type="text" autocomplete="name" required />
-              </div>
-
-              <div class="field">
-                <label for="email">Email address</label>
-                <input id="email" name="email" type="email" autocomplete="email" required />
-              </div>
-
-              <div class="field">
-                <label for="reason">Reason for contact</label>
-                <select id="reason" name="reason" required>
-                  <option value="" selected disabled>Choose one…</option>
-                  <option value="saying-hi">Saying hi</option>
-                  <option value="contractor">Looking for a contractor</option>
-                  <option value="interview">Interested in an interview</option>
-                </select>
-              </div>
-
-              <div class="field">
-                <label for="message">Comment</label>
-                <textarea id="message" name="message" rows="6" maxlength="2000"></textarea>
-              </div>
-
-              <div class="actions">
-                <button type="submit">Submit</button>
-              </div>
-            </fieldset>
-          </form>
+        
+        <div id="logo"> 
+            <i class="fa-solid fa-medal"></i>
         </div>
-      </article>
-    </main>
+       
+        <h1><b> Spartan Sports </b></h1>
+        <nav> 
+            <ul>
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="about.html"> About </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div id="blog-alignment">
-    <footer class="site-footer">
-      <small>&copy; <time datetime="2025">2025</time> Spartans Sports</small>
-    </footer>
-    </div>
+    <main id="content">
+        <div id="blog-alignment">
+            <article>
+            
+                <h2>Contact</h2>
+                <p> Have a note, request, or question? Drop a line below.</p>
+            
+            
+                <form action="#" method="post" autocomplete="on" data-netlify="true">
+                    <fieldset>
+                        <legend> Send a Message</legend>
+
+                        <div class="field">
+                            <label for="name"> Name </label>
+                            <input id="name" name="name" type="text" autocomplete="name" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="email"> Email Address</label>
+                            <input id="email" name="email" type="email" autocomplete="email" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="reason"> Reason for contact</label>
+                            <select id="reason" name="reason" required>
+                                <option value="" selected disabled> Choose one...</option>
+                                <option value="sayig hi"> Saying hi </option>
+                                <option value="contractor"> Looking for a contractor </option>
+                                <option value="interview"> Interested in an interview </option>
+                            </select>
+                        </div>
+
+                        <div class="field">
+                            <label for="message"> Comment </label>
+                            <textarea id="message" name="message" rows="6" maxlength="2000"></textarea>
+                        </div>
+
+                        <div class="actions">
+                            <button type="submit"> Submit </button>
+                        </div>
+                    </fieldset>
+                </form>
+            </article>
+
+            <footer class="site-footer">
+                <small> &copy; <time datetime="2025"> 2025</time> Spartans Sports</small>
+            </footer>
+        </div>
+    </main>
 </body>
 </html>
