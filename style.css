@@ -103,7 +103,7 @@ a:hover {text-decoration: underline;}
 {
   flex: 0 0 30%;
   position: sticky;
-  top: 50px;
+  top: 100px;
   align-self: flex-start;
 }
 
