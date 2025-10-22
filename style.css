@@ -74,7 +74,7 @@ img
     margin: 20px;
     aspect-ratio: 16/9;
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 25px;
     border: 12px solid transparent;
     object-fit: cover;
 }
