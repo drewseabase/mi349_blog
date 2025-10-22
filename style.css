@@ -125,9 +125,9 @@ a[href^="http"] { word-break: break-word; }
 .list-plain li:last-child { border-bottom:0; }
 
 .content img { max-width:100%; height:auto; border-radius:8px; }
-
+/*
 .visually-hidden { position:absolute !important; inline-size:1px; block-size:1px; overflow:hidden; clip:rect(1px,1px,1px,1px); white-space:nowrap; }
-
+*/
 @media (max-width: 900px) {
   .two-col, .three-col { flex-direction: column; }
   .float-img { float:none; margin: 16px auto; max-width: 90%; }
