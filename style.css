@@ -129,6 +129,6 @@ a[href^="http"] { word-break: break-word; }
 
 @media (max-width: 900px) {
   .two-col, .three-col { flex-direction: column; }
-  .float-img { float:none; margin: 0 0 12px 0; max-width:100%; }
+  .float-img { float:none; margin: 0 0 12px 0; width:100%; }
 }
 
