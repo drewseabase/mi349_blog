@@ -87,8 +87,8 @@ img
   margin: 20px;
   aspect-ratio: 16/9;
   overflow: hidden;
-  border-radius: 30px;
-  border: 20px solid transparent;
+  border-radius: 35px;
+  border: 25px solid transparent;
   object-fit: cover;
 }
 
