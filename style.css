@@ -131,6 +131,6 @@ a[href^="http"] { word-break: break-word; }
 @media (max-width: 900px) {
   .two-col, .three-col { flex-direction: column; }
   .float-img { float:none; margin: 16px auto; max-width: 90%; }
-  header{ align-items: center; padding: 15px 15px; height: auto;}
+  header{ align-items: center; padding: 25px 25px; height: 40px;}
 }
 
