@@ -64,7 +64,6 @@ nav a:hover
 #blog-alignment img 
 {
     display: block;
-    transform: translateX(-35px);
 }
 
 img 
@@ -74,8 +73,8 @@ img
     margin: 20px;
     aspect-ratio: 16/9;
     overflow: hidden;
-    border-radius: 15px;
-    border: 8px solid transparent;
+    border-radius: 20px;
+    border: 15px solid transparent;
     object-fit: cover;
 }
 
