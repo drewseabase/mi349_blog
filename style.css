@@ -107,7 +107,7 @@ a:hover {text-decoration: underline;}
   align-self: flex-start;
 }
 
-.float-img {display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 8px;}
+.float-img { float: none; display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 8px;}
 figure{margin: 0 0 1em;}
 figcaption{font-size: 0.9rem; color: #555; text-align: center;}
 
@@ -129,6 +129,6 @@ a[href^="http"] { word-break: break-word; }
 
 @media (max-width: 900px) {
   .two-col, .three-col { flex-direction: column; }
-  .float-img { float:none; margin: 16px auto; max-width: 100%; }
+  .float-img { float:none; margin: 16px auto; max-width: 90%; }
 }
 
