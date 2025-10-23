@@ -155,6 +155,8 @@ a[href^="http"] { word-break: break-word; }
   .card{border: none; background: none;padding: 0;}
   .two-col, .three-col{flex-direction: row;}
   nav ul {gap: 10px;}
+  h1, h2, h3 {margin:0.8em, 0, 0.3em}
+  p{margin: 0 0 1.1em;}
 }
 
 @media (max-width: 900px) {
