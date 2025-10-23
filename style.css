@@ -107,7 +107,7 @@ a:hover {text-decoration: underline;}
   color: forestgreen;
   font-size: 1.8rem;
   cursor: pointer;
-  transform: translateY(50%);
+  margin-right: -10px;
   
 }
 
@@ -165,10 +165,10 @@ a[href^="http"] { word-break: break-word; }
   
   .float-img { float:none; margin: 16px auto; max-width: 90%; }
   header{ align-items: center; padding: 5px 5px;}
-  body{font-size: 0.95rem; padding-top: 25%;}
+  body{font-size: 0.95rem;}
   .two-col .aside{display: none; background: none;}
-  h1, h2, h3 {margin:1em, 0, 0.45em}
-  p{margin: 0 0 1.3em;}
+  h1, h2, h3 {margin:1em, 0, 0.45em; padding-top: 25px;}
+  p{margin: 0 0 1.3em; padding-top: 50px;}
   nav ul 
   {
     display: none;
