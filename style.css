@@ -168,7 +168,7 @@ a[href^="http"] { word-break: break-word; }
     background: #fafafa;
     position: absolute;
     top: 55px;
-    right: 0;
+    right: 50;
     width: 100%;
     border-top: 1px solid #d3d3d3;
     padding: 10px 0;
