@@ -162,10 +162,11 @@ a[href^="http"] { word-break: break-word; }
   .float-img { float:none; margin: 16px auto; max-width: 90%; }
   header{ align-items: center; padding: 5px 5px;}
   body{font-size: 0.95rem;}
+  .two-col{display: none; background: none;}
   nav ul 
   {
     display: none;
-    flex-direction: column;
+    flex-direction: row;
     background: #fafafa;
     position: absolute;
     top: 55px;
