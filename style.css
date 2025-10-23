@@ -98,6 +98,16 @@ p{margin: 0 0 1em;}
 a{text-decoration: none;}
 a:hover {text-decoration: underline;}
 
+.menu-toggle
+{
+  display: none;
+  background: none;
+  border: none;
+  color: forestgreen;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
 .container
 {
     max-width: 1500px;
@@ -146,11 +156,11 @@ a[href^="http"] { word-break: break-word; }
 }
 
 @media (max-width: 900px) {
-  .two-col, .three-col { flex-direction: row; }
+  
   .float-img { float:none; margin: 16px auto; max-width: 90%; }
   header{ align-items: center; padding: 5px 5px;}
   nav ul {gap:10px;}
   body{font-size: 0.95rem;}
-  .card{border: none; background: none; padding: 0;}
+  
 }
 
