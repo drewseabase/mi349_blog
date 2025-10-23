@@ -188,7 +188,7 @@ a[href^="http"] { word-break: break-word; }
   {
     position: absolute;
     top: 100%;
-    right: 15px;
+    right: 0;
     width: min(280px, 90vw);
     background: #fafafa;
     border: 1px solid #d3d3d3;
