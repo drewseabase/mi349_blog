@@ -153,14 +153,29 @@ a[href^="http"] { word-break: break-word; }
 {
   .card{border: none; background: none;padding: 0;}
   .two-col, .three-col{flex-direction: row;}
+  nav ul {gap: 10px;}
 }
 
 @media (max-width: 900px) {
   
   .float-img { float:none; margin: 16px auto; max-width: 90%; }
   header{ align-items: center; padding: 5px 5px;}
-  nav ul {gap:10px;}
   body{font-size: 0.95rem;}
+  nav ul 
+  {
+    display: none;
+    flex-direction: column;
+    background: #fafafa;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    width: 100%;
+    border-top: 1px solid #d3d3d3;
+    padding: 10px 0;
+  }
+
+  nav ul.show{ display: flex;}
+  .menu-toggle{display: block;}
   
 }
 
