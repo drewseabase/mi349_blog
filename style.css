@@ -82,7 +82,7 @@ img
 #about-img
 {
   transform:translateX(-35px);
-  width: 100%;
+  max-width: 95%;
   height: auto;
   margin: 20px;
   aspect-ratio: 16/9;
