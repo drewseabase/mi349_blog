@@ -94,7 +94,7 @@ img
 
 body{font-family: system-ui, sans-serif; background:#ffff; color: #222; margin:0;}
 h1, h2, h3{line-height: 1.2; margin: 0.6em 0 0.3em;}
-p{border: 30px solid transparent; margin: 0 0 1em;}
+p{margin: 0 0 1em;}
 a{text-decoration: none;}
 a:hover {text-decoration: underline;}
 
@@ -145,5 +145,6 @@ a[href^="http"] { word-break: break-word; }
   header{ align-items: center; padding: 5px 5px;}
   nav ul {gap:10px;}
   body{font-size: 0.95rem;}
+  .card{border: none; background: none; padding: 0;}
 }
 
