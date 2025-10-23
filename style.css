@@ -108,6 +108,7 @@ a:hover {text-decoration: underline;}
   font-size: 1.8rem;
   cursor: pointer;
   margin-right: -10px;
+  transform: translateX(-50%);
 }
 
 .container
