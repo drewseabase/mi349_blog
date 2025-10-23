@@ -36,7 +36,6 @@ nav a:hover
     border-radius: 6px;
 }
 
-.nav-wrapper{ display: flex; align-items: center; gap: -50px;}
 
 .left nav ul{display: block;}
 .left nav li{display: block; margin-bottom: 6px;}
