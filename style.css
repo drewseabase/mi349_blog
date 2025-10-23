@@ -165,6 +165,8 @@ a[href^="http"] { word-break: break-word; }
   header{ align-items: center; padding: 5px 5px;}
   body{font-size: 0.95rem;}
   .two-col .aside{display: none; background: none;}
+  h1, h2, h3 {margin:1em, 0, 0.45em}
+  p{margin: 0 0 1.3em;}
   nav ul 
   {
     display: none;
