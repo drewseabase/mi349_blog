@@ -92,7 +92,7 @@ img
   object-fit: cover;
 }
 
-body{font-family: system-ui, sans-serif; background:#ffff; color: #222; margin:0;}
+body{font-family: system-ui, sans-serif; background:#ffff; color: #222; margin:0;font-size: 1rem;}
 h1, h2, h3{line-height: 1.2; margin: 0.6em 0 0.3em;}
 p{margin: 0 0 1em;}
 a{text-decoration: none;}
@@ -144,5 +144,6 @@ a[href^="http"] { word-break: break-word; }
   .float-img { float:none; margin: 16px auto; max-width: 90%; }
   header{ align-items: center; padding: 5px 5px;}
   nav ul {gap:10px;}
+  body{font-size: 0.95rem;}
 }
 
