@@ -179,6 +179,7 @@ a[href^="http"] { word-break: break-word; }
     width: 100%;
     border-top: 1px solid #d3d3d3;
     padding: 10x 0;
+    flex-direction: row-reverse;
   }
 
   nav ul.show{ display: flex;}
