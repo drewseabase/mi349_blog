@@ -140,7 +140,7 @@ a[href^="http"] { word-break: break-word; }
 .content img { max-width:100%; height:auto; border-radius:8px; }
 
 @media (max-width: 900px) {
-  .two-col, .three-col { flex-direction: column; }
+  .two-col, .three-col .left, .three-col .right { flex-direction: column; }
   .float-img { float:none; margin: 16px auto; max-width: 90%; }
   header{ align-items: center; padding: 5px 5px;}
   nav ul {gap:10px;}
