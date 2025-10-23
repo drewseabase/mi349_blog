@@ -12,6 +12,15 @@ header {
     z-index: 1000;
 }
 
+.nav-wrap
+{
+  position: relative;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 nav ul 
 {
     display: flex;
@@ -100,16 +109,13 @@ a{text-decoration: none;}
 a:hover {text-decoration: underline;}
 
 .menu-toggle
-{
-  display: none;
-  background: none;
-  border: none;
-  color: forestgreen;
-  font-size: 1.8rem;
-  cursor: pointer;
-  margin-right: -10px;
-  transform: translateX(-50%);
-}
+{ 
+  background:none; 
+  border:0; 
+  font-size:1.8rem; 
+  color:forestgreen; 
+  cursor:pointer; 
+  display:none; }
 
 .container
 {
@@ -160,6 +166,12 @@ a[href^="http"] { word-break: break-word; }
   h1, h2, h3 {margin:0.8em, 0, 0.3em}
   p{margin: 0 0 1.1em;}
 }
+@media (min-width: 901px)
+{
+  #main-nav[hidden] {display: block;}
+  #main-nav ul {display: flex; gap: 20px;}
+  .menu-toggle{display: none;}
+}
 
 @media (max-width: 900px) {
   
@@ -169,22 +181,24 @@ a[href^="http"] { word-break: break-word; }
   .two-col .aside{display: none; background: none;}
   h1, h2, h3 {margin:1em, 0, 0.45em}
   p{margin: 0 0 1.3em;}
-  nav ul 
+  
+  .menu-toggle{display: block;}
+
+  #main-nav 
   {
-    display: none;
-    flex-direction: row-reverse;
-    background: #fafafa;
     position: absolute;
-    top: 55px;
-    right: 0;
-    width: 100%;
-    border-top: 1px solid #d3d3d3;
-    padding: 10x 0;
-    
+    top: 100%;
+    right: 15px;
+    width: min(280px, 90vw);
+    background: #fafafa;
+    border: 1px solid #d3d3d3;
+    border-radius: 12px;
+    padding: 10px 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.8);
   }
 
-  nav ul.show{ display: flex;}
-  .menu-toggle{display: block;}
+  #main-nav[hidden]{display: none;}
+  #main-nav ul{ display: flex; flex-direction: column; gap: 10px;}
   
 }
 
