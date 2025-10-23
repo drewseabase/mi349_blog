@@ -181,6 +181,7 @@ a[href^="http"] { word-break: break-word; }
     border-top: 1px solid #d3d3d3;
     padding: 10x 0;
     border: 10px solid transparent;
+    font-size: small;
     
   }
 
