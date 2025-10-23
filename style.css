@@ -106,6 +106,7 @@ a:hover {text-decoration: underline;}
   color: forestgreen;
   font-size: 1.8rem;
   cursor: pointer;
+  margin-right: -10px;
 }
 
 .container
@@ -166,9 +167,9 @@ a[href^="http"] { word-break: break-word; }
     display: none;
     flex-direction: column;
     background: #fafafa;
-    position: right ;
+    position: absolute;
     top: 55px;
-    right: -50px;
+    right: 0;
     width: 100%;
     border-top: 1px solid #d3d3d3;
     padding: 10px 0;
