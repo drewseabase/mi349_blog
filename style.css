@@ -155,7 +155,8 @@ a[href^="http"] { word-break: break-word; }
 
 @media(max-width: 1000px)
 {
-  .card{border: none; background: none; padding: 0;}
+  .two-col .aside .card{border: none; background: none; padding: 0;}
+  .three-col .right, .three-col .left {display: none; background: none;}
   header{background: orange;}
 }
 
@@ -165,7 +166,6 @@ a[href^="http"] { word-break: break-word; }
   header{ align-items: center; padding: 5px 5px;}
   body{font-size: 0.95rem;}
   .two-col .aside{display: none; background: none;}
-  .three-col .right, .three-col .left {display: none; background: none;}
   h1, h2, h3 {margin:1em, 0, 0.45em;}
   p, h2, h3{padding-top: 35px;}
   p{margin: 0 0 1.3em;}
