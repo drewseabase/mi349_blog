@@ -12,21 +12,26 @@
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body> 
-  <header id="header">
+    <!-- Header -->
+    <header id="header">
+      <div id="logo">
+        <i class="fa-solid fa-medal"></i>
+      </div>
 
-        <div id="logo"> 
-            <i class="fa-solid fa-medal"></i>
-        </div>
-        
-        <h1><b> Spartan Sports </b></h1>
-        <nav> 
-            <ul>
-                <li><a href="index.html"> Home</a></li>
-                <li><a href="about.html"> About </a></li>
-                <li><a href="contact.html"> Contact </a></li>
-            </ul>
+      <h1><b> Spartan Sports </b></h1>
+      
+        <button class="menu-toggle" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav id="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </nav>
-  </header>
+    </header>
 
     <main class="three-col">
 
@@ -107,7 +112,13 @@
                 </ul>
             </div>
         </aside>
-
     </main>
+    <!-- Source to learn how to do this from "Build a Hamburger Menu with HTML CSS, and JavaScript youtube video by treehouse"-->
+<script>
+  const menuToggle = document.querySelector('.menu-toggle');
+  const navMenu = document.querySelector('nav ul');
+
+  menuToggle.addEventListener('click', () => {navMenu.classList.toggle('show');});
+</script>
 </body>
 </html>
