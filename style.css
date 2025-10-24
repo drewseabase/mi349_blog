@@ -149,12 +149,13 @@ a[href^="http"] { word-break: break-word; }
   p{margin: 0 0 1.1em;}
   p, h2, h3 {padding-top: 20px;}
   header{background: aquamarine;}
-  .three-col .right .card{background: yellow;}
+  .three-col .right .card{border:none; background: none; padding: 0;}
+  .three-col .left .card {border: none; background: none; padding: 0;}
 }
 
 @media(max-width: 1000px)
 {
-  .card{border: none; background: none;padding: 0;}
+  .card{border: none; background: none; padding: 0;}
   header{background: orange;}
 }
 
