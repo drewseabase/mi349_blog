@@ -113,7 +113,7 @@ a:hover {text-decoration: underline;}
 .two-col .aside{flex: 1 1 35%;}
 
 .three-col {display: flex; gap: 24px; align-items: flex-start;}
-.three-col .left{flex: 0 0 25%; margin: 40px;}
+.three-col .left{flex: 0 0 25%; margin: -40px;}
 .three-col .center {flex: 1 1 50%;}
 .three-col .right{flex: 0 0 25%; margin: -40px;}
 
