@@ -68,13 +68,13 @@ img {
     aspect-ratio: 16/9;
     overflow: hidden;
     border-radius: 20px;
-    border: 12px solid transparent;
+    border: -12px solid transparent;
     object-fit: cover;
 }
 
 #about-img {
   
-  max-width: 100%;
+  max-width: 95%;
   height: auto;
   margin: 20px;
   aspect-ratio: 16/9;
@@ -108,7 +108,7 @@ a:hover {text-decoration: underline;}
     padding: 0 16px;
 }
 
-.two-col{display: flex; gap: 24px; align-items: flex-start; margin: -40px;}
+.two-col{display: flex; gap: 24px; align-items: flex-start;}
 .two-col .main{flex: 1 1 65%;}
 .two-col .aside{flex: 1 1 35%;}
 
