@@ -155,7 +155,7 @@ a[href^="http"] { word-break: break-word; }
   .card p {font-size: clamp(0.6rem, 1vw +0.5rem, 1rem);white-space: pre-wrap;}
 }
 
-@media(max-width: 1000px)
+@media(max-width: 1100px)
 {
   .two-col .aside .card{border: none; background: none; padding: 0;}
   .three-col .right, .three-col .left {display: none; background: none;}
