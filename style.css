@@ -79,7 +79,7 @@ img {
   aspect-ratio: 16/9;
   overflow: hidden;
   border-radius: 38px;
-  border: -28px solid transparent;
+  border: -10px solid transparent;
   object-fit: cover;
 }
 
