@@ -12,8 +12,7 @@ header {
     z-index: 1000;
 }
 
-nav ul 
-{
+nav ul {
     display: flex;
     gap: 20px;
     list-style: none;
@@ -21,26 +20,22 @@ nav ul
     margin: 0;
 }
 
-nav a
-{
+nav a {
     text-decoration: none;
     color: inherit;
     font-weight: bold;
 }
 
-nav a:hover
-{
+nav a:hover {
     color:darkgreen;
     background-color: #e6e6e6;
     transform: translateY(-1px);
     border-radius: 6px;
 }
 
-
-.left nav ul{display: block;}
-.left nav li{display: block; margin-bottom: 6px;}
-.left nav a 
-{
+.left nav ul {display: block;}
+.left nav li {display: block; margin-bottom: 6px;}
+.left nav a {
     display: block;
     padding: 6px 10px;
     color: forestgreen;
@@ -49,27 +44,23 @@ nav a:hover
     transition: background-color 0.2s ease;
 }
 
-#logo 
-{
+#logo {
     font-size: 35px;
     flex: 0 0 auto;
 }
 
-#blog-alignment
-{
+#blog-alignment {
     max-width: 500px;
     margin: 0 auto 16px;
     line-height: 1.6;
 }
 
-#blog-alignment img 
-{
+#blog-alignment img {
     display: block;
     transform: translateX(-5%);
 }
 
-img 
-{
+img {
     width: 100%;
     height: auto;
     margin: 20px;
@@ -80,8 +71,7 @@ img
     object-fit: cover;
 }
 
-#about-img
-{
+#about-img {
   transform:translateX(-35px);
   max-width: 95%;
   height: auto;
@@ -108,7 +98,6 @@ a:hover {text-decoration: underline;}
   font-size: 1.8rem;
   cursor: pointer;
   margin-right: -100px;
-  
 }
 
 .container
@@ -154,7 +143,6 @@ a[href^="http"] { word-break: break-word; }
 
 @media (max-width: 1200px)
 {
-  
   .two-col, .three-col{flex-direction: row;}
   nav ul {gap: 10px;}
   h1, h2, h3 {margin:0.8em, 0, 0.3em}
@@ -167,8 +155,8 @@ a[href^="http"] { word-break: break-word; }
   .card{border: none; background: none;padding: 0;}
 }
 
-@media (max-width: 900px) {
-  
+@media (max-width: 900px) 
+{  
   .float-img { float:none; margin: 16px auto; max-width: 90%; }
   header{ align-items: center; padding: 5px 5px;}
   body{font-size: 0.95rem;}
@@ -177,6 +165,7 @@ a[href^="http"] { word-break: break-word; }
   h1, h2, h3 {margin:1em, 0, 0.45em;}
   p, h2, h3{padding-top: 35px;}
   p{margin: 0 0 1.3em;}
+
   nav ul 
   {
     display: none;
@@ -190,7 +179,6 @@ a[href^="http"] { word-break: break-word; }
     padding: 10x 0;
     border: 10px solid transparent;
     font-size: medium;
-    
   }
 
   nav ul.show{ display: flex;}
