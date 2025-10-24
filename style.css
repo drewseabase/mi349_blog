@@ -160,7 +160,7 @@ a[href^="http"] { word-break: break-word; }
 {
   .two-col .aside .card{border: none; background: none; padding: 0;}
   p, h2, h3 {padding-top: 20px;}
-  .card p {font-size: clamp(0.5rem, 1vw +0.4rem, 1rem); white-space: nowrap;}
+  .card p {font-size: clamp(0.5rem, 1vw +0.4rem, 1rem); white-space: pre-wrap;}
   header{background-color: orange;}
 }
 @media(max-width: 1000px){
