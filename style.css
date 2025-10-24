@@ -149,6 +149,7 @@ a[href^="http"] { word-break: break-word; }
   p{margin: 0 0 1.1em;}
   p, h2, h3 {padding-top: 20px;}
   header{background: aquamarine;}
+  .three-col .card .right{background: yellow;}
 }
 
 @media(max-width: 1000px)
