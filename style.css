@@ -147,7 +147,6 @@ a[href^="http"] { word-break: break-word; }
   nav ul {gap: 10px;}
   h1, h2, h3 {margin:0.8em, 0, 0.3em}
   p{margin: 0 0 1.1em;}
-  header{background: aquamarine;}
   .three-col .right .card{border: 15px solid transparent; background: none; padding: 0;}
   .three-col .left .card {border: 15px solid transparent; background: none; padding: 0;}
   .card{flex: 1 1 100%; min-width: 250px;}
@@ -159,7 +158,6 @@ a[href^="http"] { word-break: break-word; }
   .two-col .aside .card{border: none; background: none; padding: 0;}
   .three-col .right, .three-col .left {display: none; background: none;}
   p, h2, h3 {padding-top: 20px;}
-  header{background: orange;}
   .card p {font-size: clamp(0.5rem, 1vw +0.4rem, 1rem); white-space: nowrap;}
 }
 
