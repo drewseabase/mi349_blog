@@ -78,8 +78,8 @@ img {
   margin: 20px;
   aspect-ratio: 16/9;
   overflow: hidden;
-  border-radius: 38px;
-  border: -10px solid transparent;
+  border-radius: 18px;
+  border: 1px solid transparent;
   object-fit: cover;
 }
 
