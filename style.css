@@ -110,7 +110,7 @@ a:hover {text-decoration: underline;}
 
 .two-col{display: flex; gap: 24px; align-items: flex-start;}
 .two-col .main{flex: 1 1 65%;}
-.two-col .aside{flex: 1 1 35%; margin: -50px;}
+.two-col .aside{flex: 1 1 35%; margin: -40px;}
 
 .three-col {display: flex; gap: 24px; align-items: flex-start;}
 .three-col .left{flex: 0 0 25%; margin: -40px;}
