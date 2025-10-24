@@ -172,6 +172,7 @@ a[href^="http"] { word-break: break-word; }
   h1, h2, h3 {margin:1em, 0, 0.45em;}
   p, h2, h3{padding-top: 35px;}
   p{margin: 0 0 1.3em;}
+  #about-img {transform:translateX(50px);}
 
   nav ul 
   {
