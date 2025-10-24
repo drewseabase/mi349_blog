@@ -108,7 +108,7 @@ a:hover {text-decoration: underline;}
     padding: 0 16px;
 }
 
-.two-col{display: flex; gap: 24px; align-items: flex-start;}
+.two-col{display: flex; gap: 24px; align-items: flex-start; margin: -40px;}
 .two-col .main{flex: 1 1 65%;}
 .two-col .aside{flex: 1 1 35%;}
 
