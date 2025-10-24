@@ -147,13 +147,13 @@ a[href^="http"] { word-break: break-word; }
 {
   .two-col, .three-col{flex-direction: row;}
   nav ul {gap: 10px;}
-  h1, h2, h3 {margin:0.8em, 0, 0.3em}
+  h1, h2, h3 {margin:0.8em 0 0.3em}
   p{margin: 0 0 1.1em;}
   .three-col .right .card{border: 15px solid transparent; background: none; padding: 0;}
   .three-col .left .card {border: 15px solid transparent; background: none; padding: 0;}
   .card{flex: 1 1 100%; min-width: 250px;}
   .card p {font-size: clamp(0.6rem, 1vw +0.5rem, 1rem);white-space: pre-wrap;}
-  header{background-color: aquamarine;}
+  
 }
 
 @media(max-width: 1100px)
@@ -161,22 +161,22 @@ a[href^="http"] { word-break: break-word; }
   .two-col .aside .card{border: none; background: none; padding: 0;}
   p, h2, h3 {padding-top: 20px;}
   .card p {font-size: clamp(0.5rem, 1vw +0.4rem, 1rem); white-space: pre-wrap;}
-  header{background-color: orange;}
+  
 }
 @media(max-width: 1000px){
 .two-col .aside{display: none; background: none;} 
 .three-col .right, .three-col .left {display: none; background: none;}
-header {background-color: pink;}
+
 }
 
 @media (max-width: 900px) 
 {  
   .float-img { float:none; margin: 16px auto; max-width: 90%; }
-  header{ align-items: center; padding: 5px 5px; background-color: green;}
+  header{ align-items: center; padding: 5px 5px;}
   #logo{margin-left: 20px;}
   body{font-size: 0.95rem; margin-left: 20px;}
   .two-col .aside{display: none; background: none;}
-  h1, h2, h3 {margin:1em, 0, 0.45em;}
+  h1, h2, h3 {margin:1em 0 0.45em;}
   p, h2, h3{padding-top: 35px;}
   p{margin: 0 0 1.3em;}
   
@@ -191,7 +191,7 @@ header {background-color: pink;}
     right: 0;
     width: 100%;
     border-top: 1px solid #d3d3d3;
-    padding: 10x 0;
+    padding: 10px 0;
     border: 10px solid transparent;
     font-size: medium;
   }
