@@ -158,18 +158,9 @@ a[href^="http"] { word-break: break-word; }
 @media(max-width: 1000px)
 {
   .two-col .aside .card{border: none; background: none; padding: 0;}
+  .three-col .right, .three-col .left {display: none; background: none;}
   header{background: orange;}
-  .card p {font-size: clamp(0.5rem, 1vw +0.4rem, 1rem); white-space: nowrap;}
-  .three-col .right, .three-col .left 
-  {
-  border: none;
-  background: none;
-  padding: 0;
-  border-radius: 0;
-  box-shadow: none;
-  max-width: 600px;
-  margin: 0 auto;
-  }
+  .card p {font-size: clamp(0.5rem, 1vw +0.4rem, 1rem); white-space: nowrap; text-overflow: ellipsis;}
 }
 
 @media (max-width: 900px) 
