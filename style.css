@@ -165,7 +165,7 @@ a[href^="http"] { word-break: break-word; }
 @media (max-width: 900px) 
 {  
   .float-img { float:none; margin: 16px auto; max-width: 90%; }
-  header{ align-items: center; padding: 5px 5px; margin-right: 20px;}
+  header{ align-items: center; padding: 5px 5px; margin-left: 20px;}
   body{font-size: 0.95rem; margin-left: 20px;}
   .two-col .aside{display: none; background: none;}
   h1, h2, h3 {margin:1em, 0, 0.45em;}
