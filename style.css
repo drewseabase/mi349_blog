@@ -68,13 +68,13 @@ img {
     aspect-ratio: 16/9;
     overflow: hidden;
     border-radius: 20px;
-    border: -12px solid transparent;
+    border: 12px solid transparent;
     object-fit: cover;
 }
 
 #about-img {
   
-  max-width: 95%;
+  max-width: 100%;
   height: auto;
   margin: 20px;
   aspect-ratio: 16/9;
