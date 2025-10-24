@@ -167,12 +167,12 @@ a[href^="http"] { word-break: break-word; }
 {  
   .float-img { float:none; margin: 16px auto; max-width: 90%; }
   header{ align-items: center; padding: 5px 5px;}
-  body{font-size: 0.95rem;}
+  body{font-size: 0.95rem; margin-left: 20px;}
   .two-col .aside{display: none; background: none;}
   h1, h2, h3 {margin:1em, 0, 0.45em;}
   p, h2, h3{padding-top: 35px;}
   p{margin: 0 0 1.3em;}
-  #about-img {transform:translateX(50px);}
+  
 
   nav ul 
   {
