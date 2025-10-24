@@ -148,11 +148,13 @@ a[href^="http"] { word-break: break-word; }
   h1, h2, h3 {margin:0.8em, 0, 0.3em}
   p{margin: 0 0 1.1em;}
   p, h2, h3 {padding-top: 20px;}
+  header{background: aquamarine;}
 }
 
 @media(max-width: 1000px)
 {
   .card{border: none; background: none;padding: 0;}
+  header{background: orange;}
 }
 
 @media (max-width: 900px) 
