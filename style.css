@@ -72,14 +72,14 @@ img {
 }
 
 #about-img {
-  transform:translateX(-100px);
+  transform:translateX(-50px);
   max-width: 95%;
   height: auto;
   margin: 20px;
   aspect-ratio: 16/9;
   overflow: hidden;
   border-radius: 38px;
-  border: 28px solid transparent;
+  border: -28px solid transparent;
   object-fit: cover;
 }
 
