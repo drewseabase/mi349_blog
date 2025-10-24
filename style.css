@@ -149,7 +149,7 @@ a[href^="http"] { word-break: break-word; }
   p{margin: 0 0 1.1em;}
   p, h2, h3 {padding-top: 20px;}
   header{background: aquamarine;}
-  .three-col .right .card{border:none; background: none; padding: 0;}
+  .three-col .right .card{border: 15px solid transparent; background: none; padding: 0;}
   .three-col .left .card {border: 15px solid transparent; background: none; padding: 0;}
 }
 
